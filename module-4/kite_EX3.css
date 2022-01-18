@@ -1,0 +1,70 @@
+
+
+html, body, p {
+    font-family: 'Oswald', Verdana, 'Arial', sans-serif;
+}
+
+#container {
+    margin: 1%;
+}
+
+h1 {
+    text-align: center;
+} 
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 300;
+}
+
+ol.learned {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside; 
+}
+
+ul.movies {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside; 
+    list-style: upper-roman inside;
+}
+
+.left {
+    width: 45%;
+    float: left;
+    clear: both;
+}
+
+.right {
+    width: 45%;
+    float: right;
+    clear: right;
+}
+
+.footer {
+    float: right;
+    width: 100%;
+    margin-top: 60%;
+    clear: both;
+    margin-bottom: 20px;
+    
+}
+
+.back-to-top {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
