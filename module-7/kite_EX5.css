@@ -1,0 +1,155 @@
+
+
+/*body to margin 0 and the Oswald font family*/
+body {
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+/*Set the background color to #3c275a
+Set the text color to white 
+Give the element a padding of 20px 
+Center the text */
+
+header {
+    background-color: #3c275a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*h1 Set the weight to 400*/
+h1 {
+    font-weight: 400;;
+}
+
+/*Set the overflow to hidden
+Set the background color to #4F3674
+Set the bottom border to a solid 15px with a color of #D6A800
+*/
+
+#navbar {
+    overflow: hidden;
+    background-color: #4F3674;
+    border-bottom: solid 15px #D6A800;
+}
+
+/* Float the text to the left
+Set the display to block 
+Set the color to white 
+Center the text
+Give it a padding of “14px 16px”
+Remove the underline */
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*navbar a:hover
+Set the background color to D6A800
+Set color #4F3674*/
+#navbar a:hover {
+    color: #4F3674;
+    background-color: #D6A800;
+}
+
+/*container div 
+Set the top margin to 2%
+Set the left margin to 5%
+Set the right margin to 5%
+Give the container a padding of 10px 
+margin-top
+margin-right
+margin-bottom
+margin-left
+*/
+
+#container {
+    margin: 2% 5% 0% 5%;
+    padding: 10px;
+
+}
+
+/*card
+ Set the box shadow to 0 4px 8px 0 and an rgba(0, 0, 0, 0.2)
+Set the transition to 0.3s
+Set the width to 50%*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    transition: 0.3s;
+    padding-top: 2.5%; /*adding some padding to the card top*/
+}
+
+/*card-title 
+Center the text
+Set the font-size to 2em
+Set the color 4F3674
+Set the weight to 400*/
+.card-title {
+    text-align: center;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+/*
+card-content 
+Set the padding to “2px 16px”*/
+.card-content {
+    padding: 2px 16px;
+}
+
+/*When users hover over the card 
+set the box shadow to 0 8px 16px 0 rgba(0, 0, 0, 0.2)*/
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*footer element
+Set the background color to #4F3674
+Set the position to absolute 
+Set the bottom to 0
+Give it a width of 100%*/
+footer {
+    background-color: #4F3674;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*footer p
+Set the color to white 
+Set the weight to 400
+Float the text to the right 
+Give it a right padding of 10px
+Set the font-style to italic
+Set the font-size to .75em
+*/
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+/*footer a 
+Remove the underline 
+Set the color to white */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+footer a:hover
+Underline the text */
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
