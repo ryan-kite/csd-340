@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="BU CSD 340 Project">
+    <meta name="keywords" content="Web Development, HTML, CSS, JavaScript">
+    <meta name="author" content="Ryan Kite">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kite_EX6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <!-- header -->
+        <h1>Assignment 9.2: Build a Web Page - Part 6</h1>
+    </header>
+    <div id="navbar">
+        <!-- nav 
+        Home, About, and Contact
+        -->
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div id="container">
+        <!-- container -->
+
+        <!-- card -->
+        <div class="card">
+            <!-- div with a class of card -->
+            <div class="card-title">Book Entry Form</div>
+            <div class="card-content">
+               <div class="form">
+                   <div class="form-field">
+                       <!-- label field -->
+                       <label for="txtBookName">Book name:</label>
+                       <!-- input field -->
+                       <input 
+                        id="txtBookName" 
+                        name="txtBookName" 
+                        class="input" 
+                        type="text"
+                        >
+                   </div>
+                   <div class="form-field">
+                       <button type="submit" class="btn btn-primary full-width">Create Book</button>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <br/>
+        <br/>
+
+        <!-- card -->
+        <div class="card">
+            <!-- div with a class of card -->
+            <div class="card-title">Top 5 Favorite Books</div>
+            <div class="card-content">
+                <table id="books">
+                    <th>Book Id </th>
+                    <th>Book Name </th>
+                    <tr>
+                        <td>100</td>
+                        <td>Ready Player One 
+                            by Ernest Cline</td>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>The Martian 
+                            by Andy Weir </td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Old Man's War 
+                            by John Scalzi</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>The Hunger Games 
+                            by Suzanne Collins</td>
+                    </tr>
+                    <tr>
+                        <td>104</td>
+                        <td>Leviathan Wakes 
+                            by James S.A. Corey </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- footer -->
+        <p> &copy; <a href="https://www.bellevue.edu/" target="_blank">Bellevue University</a> <span id="year"><script>
+            document.write(new Date().getFullYear());</script></span> </p> 
+    </footer>
+
+</body>
+
+
+</html>

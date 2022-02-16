@@ -1,0 +1,279 @@
+
+
+/*body to margin 0 and the Oswald font family*/
+body {
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+/*Set the background color to #3c275a
+Set the text color to white 
+Give the element a padding of 20px 
+Center the text */
+
+header {
+    background-color: #3c275a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*h1 Set the weight to 400*/
+h1 {
+    font-weight: 400;;
+}
+
+/*Set the overflow to hidden
+Set the background color to #4F3674
+Set the bottom border to a solid 15px with a color of #D6A800
+*/
+
+#navbar {
+    overflow: hidden;
+    background-color: #4F3674;
+    border-bottom: solid 15px #D6A800;
+}
+
+/* Float the text to the left
+Set the display to block 
+Set the color to white 
+Center the text
+Give it a padding of “14px 16px”
+Remove the underline */
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*navbar a:hover
+Set the background color to D6A800
+Set color #4F3674*/
+#navbar a:hover {
+    color: #4F3674;
+    background-color: #D6A800;
+}
+
+/*
+container div 
+Use shorthand to set the margin to 
+2 % top
+5% left
+5% right
+100px bottom
+*/
+/* top | right | bottom | left */
+#container {
+    margin: 2% 5% 0% 5%;
+    margin-bottom: 100px;
+
+}
+
+/*card
+ Set the box shadow to 0 4px 8px 0 and an rgba(0, 0, 0, 0.2)
+Set the transition to 0.3s
+Set the width to 50%*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    transition: 0.3s;
+}
+
+/*card-title 
+Center the text
+Set the font-size to 2em
+Set the color 4F3674
+Set the weight to 400*/
+.card-title {
+    text-align: center;
+    color: #4F3674;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 15px 0px;
+}
+
+/*
+card-content 
+Set the padding to “2px 16px”*/
+.card-content {
+    padding: 2px 16px;
+}
+
+/*When users hover over the card 
+set the box shadow to 0 8px 16px 0 rgba(0, 0, 0, 0.2)*/
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*footer element
+Set the background color to #4F3674
+Set the position to absolute 
+Set the bottom to 0
+Give it a width of 100%*/
+
+/*footer
+Set the position to fixed (it was absolute) 
+Set the left to 0*/
+
+footer {
+    background-color: #4F3674;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*footer p
+Set the color to white 
+Set the weight to 400
+Float the text to the right 
+Give it a right padding of 10px
+Set the font-style to italic
+Set the font-size to .75em
+*/
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+/*footer a 
+Remove the underline 
+Set the color to white */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+footer a:hover
+Underline the text */
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/*.form 
+Set the display to inline-grid 
+Set the grid-template-columns to auto (one column*/
+.form {
+    display: inline-grid;
+    grid-template-columns: auto;
+
+}
+
+/*form-field
+Set the padding to 20px*/
+.form-field {
+    padding: 20px;
+}
+
+/*btn 
+Set the border to none
+Center the text
+Remove the underline 
+Set the display to inline-block 
+Set the font-size to 16px
+Set the margin to 4px 2px
+Set the cursor to pointer 
+Set the padding to 15px 32px
+Set the color to black */
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: black;
+}
+
+/*.btn-primary
+Set the background color to 4F3674
+Set the text color to white*/
+.btn-primary {
+    background-color: #4F3674;
+    color: white;
+}
+
+/*.btn-primary: hover
+set the background color to D6A800
+Set the text color to 4F3674*/
+.btn-primary:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+/*.full-width:
+Set the width to 100%*/
+.full-width {
+    width: 100%;
+}
+
+/*.input
+Set the padding to 12px 20px
+Set the margin to 8px 0
+Set the display to inline-block
+Set the border to 1px solid with a color of #ccc
+Set the border radius to 4px
+Set the box sizing to border-box */
+
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+/*#books
+Set the border-collapse to collapse 
+Set the width to 100%
+Set the bottom margin to 30px*/
+#books {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*For the books th
+Set the top padding to 12px
+Set the bottom padding to 12px
+Align the text to the left
+Set the background color to 4F3674
+Set the text color to white*/
+#books th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4F3674;
+    color: white;
+}
+
+/*For the books td and th
+Set the border to 1px solid with a color of #ddd
+Set the padding to 8px*/
+#books td,th {
+    border: 1px solid #DDD;
+    padding: 8px;
+}
+
+/*When a user hovers over a table row 
+Set the background color to D6A800
+Set the text color to 4F3674
+Set the cursor to a pointer*/
+#books tr:hover {
+    background-color: #D6A800;
+    color:  #4F3674;
+    cursor: pointer;
+}
+
+
+
